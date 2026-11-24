@@ -1,0 +1,176 @@
+[
+  {
+    "command": "GET",
+    "lines": [
+      "STATE mode=0 name=BREATHE brightness=1000 period=3000 pause=0 duty=15 uptime=5666 rxerr=0 dropped=0 cmds=1"
+    ]
+  },
+  {
+    "command": "M 0",
+    "lines": [
+      "OK M 0",
+      "STATE mode=0 name=BREATHE brightness=1000 period=3000 pause=0 duty=13 uptime=5678 rxerr=0 dropped=0 cmds=2"
+    ]
+  },
+  {
+    "command": "M 1",
+    "lines": [
+      "OK M 1",
+      "STATE mode=1 name=HEARTBEAT brightness=1000 period=3000 pause=0 duty=0 uptime=5689 rxerr=0 dropped=0 cmds=3"
+    ]
+  },
+  {
+    "command": "M 2",
+    "lines": [
+      "OK M 2",
+      "STATE mode=2 name=FIREFLY brightness=1000 period=3000 pause=0 duty=0 uptime=5700 rxerr=0 dropped=0 cmds=4"
+    ]
+  },
+  {
+    "command": "M 3",
+    "lines": [
+      "OK M 3",
+      "STATE mode=3 name=STEADY brightness=1000 period=3000 pause=0 duty=0 uptime=5711 rxerr=0 dropped=0 cmds=5"
+    ]
+  },
+  {
+    "command": "B 0",
+    "lines": [
+      "OK B 0",
+      "STATE mode=3 name=STEADY brightness=0 period=3000 pause=0 duty=1000 uptime=5722 rxerr=0 dropped=0 cmds=6"
+    ]
+  },
+  {
+    "command": "B 357",
+    "lines": [
+      "OK B 357",
+      "STATE mode=3 name=STEADY brightness=357 period=3000 pause=0 duty=0 uptime=5733 rxerr=0 dropped=0 cmds=7"
+    ]
+  },
+  {
+    "command": "B 1000",
+    "lines": [
+      "OK B 1000",
+      "STATE mode=3 name=STEADY brightness=1000 period=3000 pause=0 duty=357 uptime=5744 rxerr=0 dropped=0 cmds=8"
+    ]
+  },
+  {
+    "command": "T 500",
+    "lines": [
+      "OK T 500",
+      "STATE mode=3 name=STEADY brightness=1000 period=500 pause=0 duty=1000 uptime=5756 rxerr=0 dropped=0 cmds=9"
+    ]
+  },
+  {
+    "command": "T 1750",
+    "lines": [
+      "OK T 1750",
+      "STATE mode=3 name=STEADY brightness=1000 period=1750 pause=0 duty=1000 uptime=5769 rxerr=0 dropped=0 cmds=10"
+    ]
+  },
+  {
+    "command": "T 10000",
+    "lines": [
+      "OK T 10000",
+      "STATE mode=3 name=STEADY brightness=1000 period=10000 pause=0 duty=1000 uptime=5780 rxerr=0 dropped=0 cmds=11"
+    ]
+  },
+  {
+    "command": "P 1",
+    "lines": [
+      "OK P 1",
+      "STATE mode=3 name=STEADY brightness=1000 period=10000 pause=1 duty=1000 uptime=5792 rxerr=0 dropped=0 cmds=12"
+    ]
+  },
+  {
+    "command": "B 200",
+    "lines": [
+      "OK B 200",
+      "STATE mode=3 name=STEADY brightness=200 period=10000 pause=1 duty=1000 uptime=5803 rxerr=0 dropped=0 cmds=13"
+    ]
+  },
+  {
+    "command": "GET",
+    "lines": [
+      "STATE mode=3 name=STEADY brightness=200 period=10000 pause=1 duty=200 uptime=5865 rxerr=0 dropped=0 cmds=14"
+    ]
+  },
+  {
+    "command": "M 4",
+    "lines": [
+      "ERR RANGE"
+    ]
+  },
+  {
+    "command": "B 1001",
+    "lines": [
+      "ERR RANGE"
+    ]
+  },
+  {
+    "command": "T 499",
+    "lines": [
+      "ERR RANGE"
+    ]
+  },
+  {
+    "command": "T 10001",
+    "lines": [
+      "ERR RANGE"
+    ]
+  },
+  {
+    "command": "P 2",
+    "lines": [
+      "ERR RANGE"
+    ]
+  },
+  {
+    "command": "M",
+    "lines": [
+      "ERR COMMAND"
+    ]
+  },
+  {
+    "command": "B -1",
+    "lines": [
+      "ERR COMMAND"
+    ]
+  },
+  {
+    "command": "X 1",
+    "lines": [
+      "ERR COMMAND"
+    ]
+  },
+  {
+    "command": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ",
+    "lines": [
+      "ERR COMMAND"
+    ]
+  },
+  {
+    "command": "GET",
+    "lines": [
+      "STATE mode=3 name=STEADY brightness=200 period=10000 pause=1 duty=200 uptime=5899 rxerr=0 dropped=0 cmds=15"
+    ]
+  },
+  {
+    "command": "GET",
+    "lines": [
+      "OK M 2",
+      "OK B 650",
+      "OK T 2200",
+      "OK P 0",
+      "STATE mode=2 name=FIREFLY brightness=650 period=2200 pause=0 duty=200 uptime=5913 rxerr=0 dropped=0 cmds=19"
+    ]
+  },
+  {
+    "command": "DEFAULT",
+    "lines": [
+      "STATE mode=2 name=FIREFLY brightness=650 period=2200 pause=0 duty=3 uptime=6060 rxerr=0 dropped=0 cmds=20",
+      "OK DEFAULT",
+      "STATE mode=0 name=BREATHE brightness=1000 period=3000 pause=0 duty=0 uptime=6071 rxerr=0 dropped=0 cmds=21"
+    ]
+  }
+]

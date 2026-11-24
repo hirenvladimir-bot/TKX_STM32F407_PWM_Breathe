@@ -1,0 +1,110 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "check": "Connect and authoritative STATE",
+      "state": {
+        "mode": 0,
+        "brightness": 1000,
+        "period": 3000,
+        "pause": 0,
+        "duty": 934,
+        "uptime": 37386,
+        "rxerr": 0,
+        "dropped": 0,
+        "cmds": 22,
+        "name": "BREATHE"
+      }
+    },
+    {
+      "check": "Mode button STEADY",
+      "state": {
+        "mode": 3,
+        "brightness": 1000,
+        "period": 3000,
+        "pause": 0,
+        "duty": 995,
+        "uptime": 37516,
+        "rxerr": 0,
+        "dropped": 0,
+        "cmds": 24,
+        "name": "STEADY"
+      }
+    },
+    {
+      "check": "Brightness slider37.5%",
+      "state": {
+        "mode": 3,
+        "brightness": 375,
+        "period": 3000,
+        "pause": 0,
+        "duty": 375,
+        "uptime": 38264,
+        "rxerr": 0,
+        "dropped": 0,
+        "cmds": 26,
+        "name": "STEADY"
+      }
+    },
+    {
+      "check": "Period slider1.8s",
+      "state": {
+        "mode": 3,
+        "brightness": 375,
+        "period": 1800,
+        "pause": 0,
+        "duty": 375,
+        "uptime": 38509,
+        "rxerr": 0,
+        "dropped": 0,
+        "cmds": 28,
+        "name": "STEADY"
+      }
+    },
+    {
+      "check": "Pause button",
+      "state": {
+        "mode": 3,
+        "brightness": 375,
+        "period": 1800,
+        "pause": 1,
+        "duty": 375,
+        "uptime": 38573,
+        "rxerr": 0,
+        "dropped": 0,
+        "cmds": 30,
+        "name": "STEADY"
+      }
+    },
+    {
+      "check": "Brightness adjusts while paused",
+      "state": {
+        "mode": 3,
+        "brightness": 220,
+        "period": 1800,
+        "pause": 1,
+        "duty": 220,
+        "uptime": 39322,
+        "rxerr": 0,
+        "dropped": 0,
+        "cmds": 32,
+        "name": "STEADY"
+      }
+    },
+    {
+      "check": "Defaults confirmed",
+      "state": {
+        "mode": 0,
+        "brightness": 1000,
+        "period": 3000,
+        "pause": 0,
+        "duty": 220,
+        "uptime": 39396,
+        "rxerr": 0,
+        "dropped": 0,
+        "cmds": 34,
+        "name": "BREATHE"
+      }
+    }
+  ]
+}
