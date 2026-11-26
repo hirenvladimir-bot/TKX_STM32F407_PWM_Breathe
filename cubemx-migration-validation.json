@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-26",
+  "cubemx": "6.16.1",
+  "firmware_package": "STM32Cube FW_F4 V1.28.2",
+  "actual_generations": 4,
+  "regeneration_hashes_identical": true,
+  "hashes": {
+    "app/lamp.c": "09ee7840e0529e84b1cb331ad88c9948435a4837249a8d1bba5c266512c45ecc",
+    "app/lamp.h": "af9f730b25fb64d8d8a62f771c74a4c887be09903083b07c4badc1aea2a1c4d0",
+    "app/breath_curve.h": "a1236984cf47f757433d1410a9a5f83be851c31ade1807b8e9e212e29a0ac60d",
+    "Core/Src/main.c": "2f6b8613af116b3fed74840f2eba63b5efc3d8751b0b360b18380ab8b4a83e1f",
+    "control_panel.py": "fb3d623ea70a62cb99bbded24e4a5477a1f69b724e3794849177e36bd74c8409"
+  },
+  "source_paths_exist": true,
+  "duplicate_source_paths": false,
+  "old_layout_removed": true,
+  "keil_compiler": "6.24",
+  "cmsis_dap_preserved_after_regeneration": true
+}

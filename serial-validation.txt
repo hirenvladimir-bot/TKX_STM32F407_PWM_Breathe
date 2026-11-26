@@ -1,6 +1,0 @@
-38500ms mode=BREATHE duty=0/1000 limit=1000 period=3000ms pause=0
-39000ms mode=BREATHE duty=49/1000 limit=1000 period=3000ms pause=0
-39500ms mode=BREATHE duty=525/1000 limit=1000 period=3000ms pause=0
-40000ms mode=BREATHE duty=997/1000 limit=1000 period=3000ms pause=0
-40500ms mode=BREATHE duty=605/1000 limit=1000 period=3000ms pause=0
-41000ms mode=BREATHE duty=76/1000 limit=1000 period=3000ms pause=0

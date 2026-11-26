@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-26",
+  "hal": "v1.8.3",
+  "compiler": "Arm Compiler 6.24",
+  "rebuild": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "flashed": true,
+  "flash_readback": "PASS",
+  "flash_bytes": 13760,
+  "core_clock": 168000000,
+  "app_ready": 1,
+  "startup_bytes_discarded": 748,
+  "command_tests": [
+    {
+      "command": "M 0",
+      "state": {
+        "mode": "0",
+        "name": "BREATHE",
+        "brightness": "1000",
+        "period": "3000",
+        "pause": "0",
+        "duty": "839",
+        "uptime": "1228",
+        "rxerr": "0",
+        "dropped": "0",
+        "cmds": "2",
+        "effective": "1000",
+        "txdrop": "0"
+      }
+    },
+    {
+      "command": "M 1",
+      "state": {
+        "mode": "1",
+        "name": "HEARTBEAT",
+        "brightness": "1000",
+        "period": "3000",
+        "pause": "0",
+        "duty": "0",
+        "uptime": "2228",
+        "rxerr": "0",
+        "dropped": "0",
+        "cmds": "4",
+        "effective": "1000",
+        "txdrop": "0"
+      }
+    },
+    {
+      "command": "M 2",
+      "state": {
+        "mode": "2",
+        "name": "FIREFLY",
+        "brightness": "1000",
+        "period": "3000",
+        "pause": "0",
+        "duty": "5",
+        "uptime": "2741",
+        "rxerr": "0",
+        "dropped": "0",
+        "cmds": "6",
+        "effective": "1000",
+        "txdrop": "0"
+      }
+    },
+    {
+      "command": "M 3",
+      "state": {
+        "mode": "3",
+        "name": "STEADY",
+        "brightness": "1000",
+        "period": "3000",
+        "pause": "0",
+        "duty": "1000",
+        "uptime": "3254",
+        "rxerr": "0",
+        "dropped": "0",
+        "cmds": "8",
+        "effective": "1000",
+        "txdrop": "0"
+      }
+    },
+    {
+      "command": "B 0",
+      "state": {
+        "mode": "3",
+        "name": "STEADY",
+        "brightness": "0",
+        "period": "3000",
+        "pause": "0",
+        "duty": "1000",
+        "uptime": "3267",
+        "rxerr": "0",
+        "dropped": "0",
+        "cmds": "10",
+        "effective": "1000",
+        "txdrop": "0"
+      }
+    },
+    {
+      "command": "B 500",
+      "state": {
+        "mode": "3",
+        "name": "STEADY",
+        "brightness": "500",
+        "period": "3000",
+        "pause": "0",
+        "duty": "250",
+        "uptime": "4268",
+        "rxerr": "0",
+        "dropped": "0",
+        "cmds": "12",
+        "effective": "500",
+        "txdrop": "0"
+      }
+    },
+    {
+      "command": "B 1000",
+      "state": {
+        "mode": "3",
+        "name": "STEADY",
+        "brightness": "1000",
+        "period": "3000",
+        "pause": "0",
+        "duty": "1000",
+        "uptime": "4780",
+        "rxerr": "0",
+        "dropped": "0",
+        "cmds": "14",
+        "effective": "1000",
+        "txdrop": "0"
+      }
+    },
+    {
+      "command": "T 500",
+      "state": {
+        "mode": "3",
+        "name": "STEADY",
+        "brightness": "1000",
+        "period": "500",
+        "pause": "0",
+        "duty": "1000",
+        "uptime": "4793",
+        "rxerr": "0",
+        "dropped": "0",
+        "cmds": "16",
+        "effective": "1000",
+        "txdrop": "0"
+      }
+    },
+    {
+      "command": "T 10000",
+      "state": {
+        "mode": "3",
+        "name": "STEADY",
+        "brightness": "1000",
+        "period": "10000",
+        "pause": "0",
+        "duty": "1000",
+        "uptime": "5789",
+        "rxerr": "0",
+        "dropped": "0",
+        "cmds": "18",
+        "effective": "1000",
+        "txdrop": "0"
+      }
+    },
+    {
+      "command": "P 1",
+      "state": {
+        "mode": "3",
+        "name": "STEADY",
+        "brightness": "1000",
+        "period": "10000",
+        "pause": "1",
+        "duty": "1000",
+        "uptime": "6302",
+        "rxerr": "0",
+        "dropped": "0",
+        "cmds": "20",
+        "effective": "1000",
+        "txdrop": "0"
+      }
+    },
+    {
+      "command": "P 0",
+      "state": {
+        "mode": "3",
+        "name": "STEADY",
+        "brightness": "1000",
+        "period": "10000",
+        "pause": "0",
+        "duty": "1000",
+        "uptime": "6315",
+        "rxerr": "0",
+        "dropped": "0",
+        "cmds": "22",
+        "effective": "1000",
+        "txdrop": "0"
+      }
+    }
+  ],
+  "range_rejection": "PASS",
+  "final_state": {
+    "mode": "0",
+    "name": "BREATHE",
+    "brightness": "1000",
+    "period": "3000",
+    "pause": "0",
+    "duty": "59",
+    "uptime": "7709",
+    "rxerr": "0",
+    "dropped": "0",
+    "cmds": "24",
+    "effective": "1000",
+    "txdrop": "0"
+  },
+  "wave_packets_observed": 50,
+  "wave_varies": "PASS",
+  "status": "PASS",
+  "limitation": "PB2 minimum pulse electrical waveform and visual effect need physical observation"
+}

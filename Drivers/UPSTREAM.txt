@@ -1,0 +1,4 @@
+Source: STM32CubeMX 6.16.1 generated from TKX_STM32F407_PWM_Breathe.ioc
+Firmware: STM32Cube_FW_F4_V1.28.2, installed ST package
+HAL repository: https://github.com/STMicroelectronics/stm32f4xx-hal-driver
+Cube firmware repository: https://github.com/STMicroelectronics/STM32CubeF4
